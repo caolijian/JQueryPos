@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
+    <title>Shopping list</title>
+    <script type="text/javascript" src="shopping_list.js"></script>
+    <script src="jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="../../../lib/require.js" data-main="../../../lib/main"></script>
+</head>
+<body>
+<div class="btn-group">
+    <button class="btn">Let's GO</button>
+    <button class="btn">主页</button>
+    <button class="btn">商品列表</button>
+</div>
+
+
+    <fieldset>
+        <table id="List"  cellpadding="0" cellspacing="0" width="70%">
+            <thead>
+            <tr ><b>商品列表</b></tr>
+            </thead>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table id="oTable" style="background-color:#ffffff;" bordercolor="#000000" border="1" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>分类</th>
+                <th>名称</th>
+                <th>单价（元）</th>
+                <th>单位</th>
+                <th> </th>
+            </tr>
+            <tr>
+                <th>饮料</th>
+                <th>可口可乐</th>
+                <th>3</th>
+                <th>瓶</th>
+                <th><input type="button" value="加入购物车" style="width:80px;height:30px;text-align:center;font-size:10px;background-color: #71bdff;color:white;">
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </fieldset>
+
+</body>
+
+
+
+</html>
